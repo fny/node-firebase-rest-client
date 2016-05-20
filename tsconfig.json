@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"module": "CommonJS",
+		"target": "es5",
+		"noImplicitAny": false,
+		"outDir": "dist"
+	},
+	"filesGlob": [
+		"src/**/*.ts",
+		"typings/**/*.ts"
+	],
+	"atom": {
+		"rewriteTsconfig": true
+	},
+	"files": [
+		"src/FirebaseClient.ts",
+		"src/helpers/objectToParamString.ts",
+		"typings/globals/es6-shim/index.d.ts",
+		"typings/globals/node/index.d.ts",
+		"typings/index.d.ts",
+		"typings/local/node-fetch/index.d.ts"
+	]
+}
